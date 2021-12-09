@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Tolly Wood Star</title>
+        <link rel="icon" href="{{url_for('static',filename='Letter-T-icon.png')}}" type="image/gif" sizes="16x16">
+        <style>
+            *{
+                text-align: center;
+                background-color:black;
+                color:rgb(201, 3, 3);
+            }
+            p{
+                color:rgb(240, 149, 149);
+                margin-top: 100px;
+                font-size: 18px;
+            }
+            button{
+                border-radius: 100px;
+                width:200px;
+                height:100px;
+                margin-top:50px;
+            }
+            button:hover{
+                background-color:rgb(68, 56, 56);
+            }
+            
+        </style>
+    </head>
+    <body>
+        <br>
+        <br>
+        <h1><a>T</a>olly Wood Star</h1>
+        <br>
+        <h2>Play Tolly Wod star and earn money</h2>
+        
+    <p>you can earn by predicting telugu movie<br>and earn money
+    can play the game after paying only Rs./-10</p>
+    <form action="/submit">
+        <button>click to donate</button>
+    </form>
+    <form action="/play">
+        <button>click to play free</button>
+    </form>
+    </body>
+</html>

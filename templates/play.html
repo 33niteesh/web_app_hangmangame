@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Tolly Wood Star</title>
+        <link rel="icon" href="{{url_for('static',filename='Letter-T-icon.png')}}" type="image/gif" sizes="16x16">
+        
+        <style>
+            *{
+                margin-top: 50px;
+                text-align: center;
+                background-color: black;
+            }
+            button{
+                border-radius: 100px;
+                width:200px;
+                height:100px;
+                margin-top:50px;
+                color: red;
+                font-size: large;
+            }
+            button:hover{
+                background-color:rgb(68, 56, 56);
+            }
+            input{
+                width:400px;
+                height:100px;
+                color:red;
+                font-size: x-large;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="/press" method='post'>
+            <input type="text" name="mn"/>
+            <br>
+            <button>ok</button>
+        </form>
+        
+        </body>
+</html>
